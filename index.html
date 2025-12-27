@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Throw Off Cliff</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Throw Off Cliff Game</h1>
+        <div class="game-stats">
+            <span id="thrown-count">Thrown: 0</span>
+        </div>
+        <div class="upload-section">
+            <label for="image-upload">Upload something to throw:</label>
+            <input type="file" id="image-upload" accept="image/*">
+        </div>
+        <div class="controls-info">
+            <p>🎮 Use ← → arrow keys to move Thrower, SPACEBAR at cliff edge to throw!</p>
+        </div>
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
